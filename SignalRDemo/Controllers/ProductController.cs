@@ -14,7 +14,7 @@ namespace SignalRDemo.Controllers
         {
             messageHub = _messageHub;
         }
-        [HttpPost]
+        [HttpGet]
         [Route("productoffers")]
         public string Get()
         {
